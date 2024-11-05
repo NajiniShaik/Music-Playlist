@@ -1,0 +1,89 @@
+.track-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track-detailed-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.track-img {
+  height: 80px;
+  width: 110px;
+}
+
+@media (min-width: 768px) {
+  .track-img {
+    height: 110px;
+    width: 160px;
+  }
+}
+
+.track-title {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .track-title {
+    font-size: 24px;
+  }
+}
+
+.track-genre {
+  color: #3b82f6;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .track-genre {
+    font-size: 18px;
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .duration {
+    font-size: 17px;
+  }
+}
+
+.delete-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.delete-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .delete-icon {
+    font-size: 24px;
+  }
+}
